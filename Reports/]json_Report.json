@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3200482900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitionClass.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Checks The  Adactin Login Functionality",
+        "description": "",
+        "id": "to-test-the-adactin-hotel-booking-application;checks-the--adactin-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 191178000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitionClass.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User Launch The Url of The Adactin Application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User Enter The Username \u003c\"hema1892\"\u003e in The respective filed",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User enter The password \u003c\"123456\"\u003e in The respective filed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User Clicks The Loginbutton Its Navigate to The Search Hotel",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Adactin Hotel Booking Application",
+    "description": "",
+    "id": "to-test-the-adactin-hotel-booking-application",
+    "keyword": "Feature",
+    "uri": "Adac.feature"
+  }
+]
